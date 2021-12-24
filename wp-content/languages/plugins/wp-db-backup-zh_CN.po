@@ -1,0 +1,363 @@
+# Translation of Plugins - Database Backup for WordPress - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Database Backup for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-30 17:07:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Database Backup for WordPress - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://austinmatzko.com/"
+msgstr "http://austinmatzko.com/"
+
+#. Author of the plugin/theme
+msgid "Austin Matzko"
+msgstr "Austin Matzko"
+
+#. Description of the plugin/theme
+msgid "On-demand backup of your WordPress database. Navigate to <a href=\"edit.php?page=wp-db-backup\">Tools &rarr; Backup</a> to get started."
+msgstr "按需备份WordPress数据库。 导航到<a href=\"edit.php?page=wp-db-backup\">工具 &rarr; 备份</a>以开始使用。"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/matzko/wp-db-backup"
+msgstr "https://github.com/matzko/wp-db-backup"
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Database Backup"
+msgstr "WordPress Database Backup"
+
+#: wp-db-backup.php:1501
+msgid "Cheatin' uh ?"
+msgstr "想骗我吗？"
+
+#: wp-db-backup.php:1490
+msgid "There appears to be an unauthorized attempt from this site to access your database located at %1s.  The attempt has been halted."
+msgstr "该站点尝试未授权地访问位于 %1s 的你的数据库。访问已经被终止。"
+
+#: wp-db-backup.php:1475
+msgid "You are not allowed to perform backups."
+msgstr "你没有进行备份的权限。"
+
+#: wp-db-backup.php:1457
+msgid "Your WordPress version, %1s, lacks important security features without which it is unsafe to use the WP-DB-Backup plugin.  Hence, this plugin is automatically disabled.  Please consider <a href=\"%2s\">upgrading WordPress</a> to a more recent version."
+msgstr "你的 %1s 版 WordPress 缺少一些重要的安全特性，由于在该版本上运行 WP-DB-Backup 插件极不安全，我们已经自动禁用了该插件。请<a href=\"%2s\">升级 WordPress </a>至较新的版本。"
+
+#: wp-db-backup.php:1444
+msgid "Once Weekly"
+msgstr "每周"
+
+#: wp-db-backup.php:1411
+msgid "%s seconds"
+msgstr "%s 秒"
+
+#: wp-db-backup.php:1406
+msgid "Never"
+msgstr "从不"
+
+#: wp-db-backup.php:1371
+msgid "Tables to include in the scheduled backup:"
+msgstr "定时备份包含的数据表："
+
+#: wp-db-backup.php:1363
+msgid "Schedule backup"
+msgstr "定时备份"
+
+#: wp-db-backup.php:1346
+msgid "Daily"
+msgstr "每日"
+
+#: wp-db-backup.php:1346
+msgid "None"
+msgstr "无"
+
+#: wp-db-backup.php:1342
+msgid "Schedule: "
+msgstr "定时任务："
+
+#: wp-db-backup.php:1337
+msgid "Next WP-Cron Daily Execution: %s"
+msgstr "下一次 WP-Cron 每日备份时间：%s"
+
+#: wp-db-backup.php:1336
+msgid "Last WP-Cron Daily Execution: %s"
+msgstr "上一次 WP-Cron 每日执行时间：%s"
+
+#: wp-db-backup.php:1331
+msgid "Next Backup: %s"
+msgstr "下一次备份时间：%s"
+
+#: wp-db-backup.php:1324
+msgid "Scheduled Backup"
+msgstr "定时备份"
+
+#: wp-db-backup.php:1313
+msgid "WARNING: Your backup directory is <strong>NOT</strong> writable!"
+msgstr "警告：备份文件夹<strong>无法</strong>写入！"
+
+#: wp-db-backup.php:1310
+msgid "Backup now!"
+msgstr "立即备份！"
+
+#: wp-db-backup.php:1297 wp-db-backup.php:1361
+msgid "Email backup to:"
+msgstr "通过电子邮件发送备份至："
+
+#: wp-db-backup.php:1293
+msgid "Download to your computer"
+msgstr "下载至本地电脑"
+
+#: wp-db-backup.php:1289
+msgid "What to do with the backup file:"
+msgstr "怎样处理备份文件："
+
+#: wp-db-backup.php:1288
+msgid "Backup Options"
+msgstr "备份选项"
+
+#: wp-db-backup.php:1274
+msgid "You may choose to include any of the following tables:"
+msgstr "你可以选择备份以下的任何数据表："
+
+#: wp-db-backup.php:1263
+msgid "Exclude post revisions"
+msgstr "不包括日志修订"
+
+#: wp-db-backup.php:1260
+msgid "Exclude spam comments"
+msgstr "不包括垃圾评论"
+
+#: wp-db-backup.php:1255
+msgid "These core WordPress tables will always be backed up:"
+msgstr "以下 WordPress 核心数据表会默认备份："
+
+#: wp-db-backup.php:1253
+msgid "Tables"
+msgstr "数据表"
+
+#: wp-db-backup.php:1239
+msgid "You can try to correct this problem by using your FTP client to delete and then re-create the backup directory: %s"
+msgstr "请使用你的FTP客户端来删除并重新创建如下的备份目录：%s ，这样可能有助于解决当前的问题"
+
+#: wp-db-backup.php:1237
+msgid "This problem seems to be caused by your server&rsquo;s <code>safe_mode</code> file ownership restrictions, which limit what files web applications like WordPress can create."
+msgstr "这个问题可能是由于当前服务器的 <code>safe_mode</code> 文件的所有权限制引起的，这个文件限制了WordPress之类的网络应用程序创建文件的权限。"
+
+#: wp-db-backup.php:1225
+msgid "Using your FTP client, try to set the backup directory&rsquo;s write permission to %1$s or %2$s: %3$s"
+msgstr "请使用你的FTP客户端来设置备份目录的权限为 %1$s 或者 %2$s: %3$s"
+
+#: wp-db-backup.php:1224 wp-db-backup.php:1235
+msgid "WARNING: Your backup directory is <strong>NOT</strong> writable! We cannot create the backup files."
+msgstr "警告： 备份文件夹<strong>无法</strong>写入！无法创建备份文件。"
+
+#: wp-db-backup.php:1220
+msgid "Using your FTP client, try to create the backup directory yourself: %s"
+msgstr "请使用你的FTP客户端来自行创建如下的备份目录：%s"
+
+#: wp-db-backup.php:1219
+msgid "WARNING: Your backup directory does <strong>NOT</strong> exist, and we cannot create it."
+msgstr "警告： 备份文件夹<strong>不存在</strong>，而且无法自动创建。"
+
+#: wp-db-backup.php:1192
+msgid "Scheduled Backup Options Saved!"
+msgstr "定时备份设置已保存！"
+
+#: wp-db-backup.php:1147
+msgid "Your backup file: %2s should begin downloading shortly."
+msgstr "您的备份文件:应该很快开始下载%2。"
+
+#: wp-db-backup.php:1143
+msgid "Backup Successful"
+msgstr "备份成功"
+
+#: wp-db-backup.php:1124
+msgid "ERROR: The mail application has failed to deliver the backup."
+msgstr "错误：通过电子邮件发送备份文件失败。"
+
+#: wp-db-backup.php:1119 wp-db-backup.php:1165
+msgid "The following errors were reported:"
+msgstr "发现以下错误："
+
+#: wp-db-backup.php:1116
+msgid "Database Backup"
+msgstr "数据库备份"
+
+#: wp-db-backup.php:1115
+msgid ""
+"Attached to this email is\n"
+"   %1s\n"
+"   Size:%2s kilobytes\n"
+msgstr ""
+"该电子邮件的附件\n"
+"   %1s\n"
+"   大小：%2s KB\n"
+
+#: wp-db-backup.php:1108
+msgid "File %s does not exist!"
+msgstr "文件 %s 不存在！"
+
+#: wp-db-backup.php:1092
+msgid "Return to Backup"
+msgstr "返回备份页面"
+
+#: wp-db-backup.php:1092
+msgid "File not found:%s"
+msgstr "无法找到文件：%s"
+
+#: wp-db-backup.php:903
+msgid "The backup directory is not writeable!"
+msgstr "无法写入备份文件夹！"
+
+#: wp-db-backup.php:887
+msgid "End of data contents of table %s"
+msgstr " %s 数据表的内容结束"
+
+#: wp-db-backup.php:817
+msgid "Data contents of table %s"
+msgstr " %s 数据表的内容"
+
+#: wp-db-backup.php:809
+msgid "Error getting table structure of %s"
+msgstr "无法获取 %s 的数据表结构"
+
+#: wp-db-backup.php:802
+msgid "Error with SHOW CREATE TABLE for %s."
+msgstr "无法显示创建的 %s 数据表"
+
+#: wp-db-backup.php:796
+msgid "Table structure of table %s"
+msgstr " %s 数据表的结构"
+
+#: wp-db-backup.php:787
+msgid "Delete any existing table %s"
+msgstr "删除任何存在的 %s 数据表"
+
+#: wp-db-backup.php:779
+msgid "Error getting table details"
+msgstr "无法获取数据表的详细信息"
+
+#: wp-db-backup.php:745
+msgid "Subsequent errors have been omitted from this log."
+msgstr "之后的错误已经被省略。"
+
+#: wp-db-backup.php:712
+msgid "There was an error writing a line to the backup script:"
+msgstr "在向备份脚本写入一行时发生错误："
+
+#: wp-db-backup.php:642
+msgid "FAQ"
+msgstr "常见问题"
+
+#: wp-db-backup.php:615 wp-db-backup.php:621 wp-db-backup.php:633
+#: wp-db-backup.php:1250
+msgid "Backup"
+msgstr "备份"
+
+#: wp-db-backup.php:521
+msgid "Save"
+msgstr "保存"
+
+#: wp-db-backup.php:512
+msgid "Change"
+msgstr "更改"
+
+#: wp-db-backup.php:468
+msgid "Click and hold down <code>[SHIFT]</code> to toggle multiple checkboxes"
+msgstr "按住 <code>[SHIFT]</code> 的同时点击可以选中多个复选框"
+
+#: wp-db-backup.php:409
+msgid "The backup directory is not writeable!  Please check the permissions for writing to your backup directory and try again."
+msgstr "备份文件夹无法写入！请检查你的备份文件夹的写权限设置并重试。"
+
+#: wp-db-backup.php:402 wp-db-backup.php:925
+msgid "Table: %s"
+msgstr "数据表：%s"
+
+#: wp-db-backup.php:394 wp-db-backup.php:912
+msgid "Database: %s"
+msgstr "数据库：%s"
+
+#: wp-db-backup.php:393 wp-db-backup.php:911
+msgid "Hostname: %s"
+msgstr "主机名：%s"
+
+#: wp-db-backup.php:392 wp-db-backup.php:910
+msgid "Generated: %s"
+msgstr "创建于：%s"
+
+#: wp-db-backup.php:390 wp-db-backup.php:908
+msgid "WordPress MySQL database backup"
+msgstr "WordPress MySQL 数据库备份"
+
+#: wp-db-backup.php:385
+msgid "The backup file could not be saved.  Please check the permissions for writing to your backup directory and try again."
+msgstr "无法保存备份文件。请检查你的备份文件夹的写权限设置并重试。"
+
+#: wp-db-backup.php:384 wp-db-backup.php:899
+msgid "Could not open the backup file for writing!"
+msgstr "无法以写方式打开备份文件！"
+
+#: wp-db-backup.php:377
+msgid "Backing up table \\\"%s\\\"..."
+msgstr "正在备份数据表\\\"%s\\\"……"
+
+#: wp-db-backup.php:375
+msgid "Finished backing up table \\\"%s\\\"."
+msgstr "数据表\\\"%s\\\"备份完成。"
+
+#: wp-db-backup.php:372
+msgid "Creating backup file..."
+msgstr "创建备份文件……"
+
+#: wp-db-backup.php:305 wp-db-backup.php:1155
+msgid "Your backup has been emailed to %s"
+msgstr "你的备份文件已经通过电子邮件发送至 %s"
+
+#: wp-db-backup.php:289
+msgid "Preparing download."
+msgstr "正在准备下载。"
+
+#: wp-db-backup.php:252
+msgid "Navigating away from this page will cause your backup to fail."
+msgstr "关闭本页面会导致数据库备份失败。"
+
+#: wp-db-backup.php:243
+msgid "Progress:"
+msgstr "备份进度："
+
+#: wp-db-backup.php:241
+msgid "Click the Stop or Back buttons in your browser"
+msgstr "点击浏览器的停止或者后退按钮"
+
+#: wp-db-backup.php:240
+msgid "Reload this page"
+msgstr "刷新这个页面"
+
+#: wp-db-backup.php:239
+msgid "Close this browser"
+msgstr "关闭这个页面"
+
+#: wp-db-backup.php:236
+msgid "DO NOT DO THE FOLLOWING AS IT WILL CAUSE YOUR BACKUP TO FAIL:"
+msgstr "请不要进行以下操作，否则会导致备份失败："
+
+#: wp-db-backup.php:234
+msgid "Progress"
+msgstr "备份中"
+
+#: wp-db-backup.php:225
+msgid "Click <a href=\"%s\" target=\"_blank\">here</a> to back up your database using the WordPress Database Backup plugin. <strong>Note:</strong> WordPress Database Backup does <em>not</em> back up your files, just your database."
+msgstr "单击<a href=\"%s\" target=\"_blank\">此处</a>以使用WordPress Database Backup插件备份数据库。 <strong>注意：</strong>WordPress Database Backup<em>不会备份文件</em>，而仅备份数据库。"
+
+#: wp-db-backup.php:224
+msgid "http://codex.wordpress.org/WordPress_Backups"
+msgstr "http://codex.wordpress.org/WordPress_Backups"
+
+#: wp-db-backup.php:163 wp-db-backup.php:176 wp-db-backup.php:312
+msgid "Backup Complete!"
+msgstr "备份成功！"
